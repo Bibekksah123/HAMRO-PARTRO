@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.turbo/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+out/
+build/
+.vercel/
+.wrangler/
+test-results/
+playwright-report/

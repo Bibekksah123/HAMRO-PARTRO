@@ -1,0 +1,33 @@
+{
+  "name": "@merodin/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@merodin/auth": "workspace:*",
+    "@merodin/date": "workspace:*",
+    "@merodin/db": "workspace:*",
+    "@merodin/ui": "workspace:*",
+    "@merodin/types": "workspace:*",
+    "@merodin/validation": "workspace:*",
+    "@supabase/ssr": "^0.12.7",
+    "drizzle-orm": "^0.45.3",
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.17"
+  }
+}

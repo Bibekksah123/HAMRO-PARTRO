@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#167452" />
+    <title>You're offline — MeroDin</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        background: #f7f8f4;
+        color: #242c27;
+      }
+      main {
+        width: min(440px, calc(100% - 40px));
+        padding: 32px;
+        border: 1px solid #e5e9e3;
+        border-radius: 24px;
+        background: #fff;
+        box-shadow: 0 20px 55px rgb(35 67 45 / 9%);
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: 1.7rem;
+      }
+      p {
+        color: #526057;
+        line-height: 1.6;
+      }
+      a {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 12px 17px;
+        border-radius: 999px;
+        background: #167452;
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      a:focus-visible {
+        outline: 3px solid #0c5d40;
+        outline-offset: 3px;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #131a16;
+          color: #edf3ed;
+        }
+        main {
+          background: #1c2520;
+          border-color: #303c35;
+        }
+        p {
+          color: #aab7ad;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>You're offline</h1>
+      <p>
+        Previously opened public pages may still be available. Reconnect to load
+        fresh dates and save personal changes.
+      </p>
+      <a href="/">Try MeroDin again</a>
+    </main>
+  </body>
+</html>
